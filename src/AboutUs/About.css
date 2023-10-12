@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  overflow-x:hidden;
+  overflow-y:auto;
+}
+
+body {
+  font-family: Nunito,sans-serif;
+  color: #343a40;
+}
+
+.img1{
+  background-image: url(../Images/page-about.jpg);
+}
+
+.overlay[data-overlay="6"]:after {
+  opacity: .6;
+}
+
+.overlay[data-overlay-color=dark]:after {
+  background-color: #343a40;
+}
+
+.overlay:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  z-index: -1;
+  overflow: hidden;
+}
+  
+span{
+  font-size: 15px;
+}
+
+.text-center {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.background-center {
+  background-position: 50%;
+  height: 268.52px;
+}
+
+.overlay {
+  z-index: 0;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text-white {
+  color: #fff;
+}
+
+h2{
+  font-size: 30.4px;
+  margin-bottom: 16px;
+}
+      
+.list {
+  position: relative;
+}
+
+.list, .list li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+  
+.list li:before {
+  content: "⧁";
+  font-family: themify;
+  position: absolute;
+  left: -.0px;
+  font-size: 15px;
+}
+
+.col-lg-7 {
+  flex: 0 0 58.33%;
+  max-width: 58.33%;
+}
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.col-sm-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.col-lg-5 {
+  flex: 0 0 41.67%;
+  max-width: 41.67%;
+}
+
+
